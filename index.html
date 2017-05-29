@@ -19,7 +19,7 @@
 
     <!-- demos -->
     <script>
-      var email = $("input[name='invalid-email']")
+      var email = $("input")
       email.keyup(function() {
         if (!email.emailValidator()) {
           $(email).addClass("error").removeClass("success")
